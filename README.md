@@ -41,11 +41,14 @@ Repository to teach basic git commands for collaborative projects
 -  Update from/to remote:
   - `git pull <from_where> <what>`, `git push <where> <what>`, `git fetch <from_where> <what>`
 
-- a more thorough and detailed explanation can be found on the [Numpy Contributor's Guide](https://docs.scipy.org/doc/numpy/dev/gitwash/index.html). This guide can be adapted to your own needs, see [gitwash](https://github.com/matthew-brett/gitwash).
-- make it clear that GitHub is just an option (git≠GitHub)
-
 ## Scenarios
 1. lone scientist working alone in the cellar without Internet (local git)
 2. lone scientist uploading their software to the Internet in the hope it can be useful for other people (local git + one personal GitHub repo)
 3. lone scientist sharing one software project with some other befriended lone scientist working in a different place (local git + o.p.G.r + permissions)
 4. research group sharing software among members (local git + several GitHub repos + permissions + branches + [optional] PRs)
+(Check pictures in git_scenarios)
+
+## Extra resources
+1. Version control with git tutorial with exercises: https://swcarpentry.github.io/git-novice/
+2. A more thorough and detailed explanation can be found on the [Numpy Contributor's Guide](https://docs.scipy.org/doc/numpy/dev/gitwash/index.html).
+ This guide can be adapted to your own needs, see [gitwash](https://github.com/matthew-brett/gitwash).
